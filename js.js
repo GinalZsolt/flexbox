@@ -1,9 +1,4 @@
-
-
-
 calc.addEventListener('click',function(){calcPrice()})
-
-reset.addEventListener('click',function(){restart()})
 
 function calcPrice(){
 let meret = document.querySelector('#meret').value;
