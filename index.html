@@ -63,7 +63,7 @@
             <div class="container-flex">
                 <div>
                     <h3>Méret</h3>
-                    <p id="inputs">
+                    <p class="inputs">
                         <select name="meret" id="meret">
                             <option value="L">L</option>
                             <option value="M">M</option>
@@ -73,7 +73,7 @@
                 </div>
                 <div>
                     <h3>Spórolási lehetőség:</h3>
-                    <p id="inputs">
+                    <p class="inputs">
                         <select name="hiba" id="hiba">
                             <option value="none">Sima (-0 Ft/db)</option>
                             <option value="torott">Törött (-5 Ft/db)</option>
@@ -81,6 +81,20 @@
                         </select>
                     </p>
                 </div>
+                <div>
+                    <h3>Darabszám</h3>
+                    <p class="inputs">
+                        <input type="number" id="db">
+                        <label for="darab">db</label>
+                    </p>
+                </div>
+            </div>
+            <h3>Számolás</h3>
+            <div class="container-flex">
+                <p class="inputs">
+                    <button id="calc" type="button">Kalkulálás</button>
+                    <button id="reset" type="button">Visszaállítás</button>
+                </p>
             </div>
         </form>
     </div>
