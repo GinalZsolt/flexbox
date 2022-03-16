@@ -30,11 +30,11 @@ let calc= document.querySelector('#calc')
     price*=db;
     switch (hiba) {
         case "torott":
-            price-=db*10;
+            price-=db*5;
             break;
     
         case "piszkos":
-            price-=db*5;
+            price-=db*10;
             break;
 
     }
