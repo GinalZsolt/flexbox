@@ -49,7 +49,7 @@
                 <p>Adatok:</p>
                 <ul>
                     <li>Ár: 35 Ft / db</li>
-                    <li>Tömeg: >53g</li>
+                    <li>Tömeg: &#60;53g</li>
                 </ul>
             </article>
         </div>
@@ -84,7 +84,7 @@
                 <div>
                     <h3>Darabszám</h3>
                     <p class="inputs">
-                        <input type="number" id="db">
+                        <input type="number" min="1" value="1" max="1000" id="db">
                         <label for="darab">db</label>
                     </p>
                 </div>
@@ -96,6 +96,9 @@
                 </p>
             </div>
         </form>
+        <div id="ered">
+            <p></p>
+        </div>
     </div>
     <div class="container-flex">
         <footer><h3>Forrás</h3><p>Féderer Dávid&copy;</p></footer>
