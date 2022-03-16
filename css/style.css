@@ -7,9 +7,23 @@ body, html{
 }
 .container-flex{
     display:flex;
-    height: 100%;
     width: 100%;
+    justify-content: center;
+    flex-flow: row wrap;
 }
-footer{
-    align-self:flex-end;
+.container-flex:last-of-type{
+    align-items: flex-end;
+}
+h2{
+    text-align: center; 
+    padding:5px;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+.container-flex>div{
+    margin-left: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    width: 300px;
 }
