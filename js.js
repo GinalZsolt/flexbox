@@ -1,22 +1,32 @@
 let meret = document.querySelector('#selectmeret');
-let torott = document.querySelector('#torott');
-let piszkos = document.querySelector('#piszkos');
+let hiba= 
 let ered= document.querySelector('#ered');
 let db= document.querySelector('#db').value;
 let price=0;
+let reset= document.querySelector('#reset')
+let calc= document.querySelector('#calc')
+
+
+calc.addEventListener('click',function(){calcPrice()})
+
+reset.addEventListener('click'function(){restart()})
+
+function restart(){
+
+}
 
 function calcPrice(){
     switch (meret) {
         case "L":
-            price=40;
+            price=45;
             break;
     
         case "M":
-            price=30;
+            price=40;
             break;
         
         case "S":
-            price=20;
+            price=35;
             break;
     }
     price*=db;
