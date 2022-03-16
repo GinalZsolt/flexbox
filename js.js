@@ -1,21 +1,18 @@
-let meret = document.querySelector('#meret').value;
-let hiba= document.querySelector('#hiba').value;
-let ered= document.querySelector('#ered');
-let db= document.querySelector('#db').value;
-let price=0;
-let reset= document.querySelector('#reset')
-let calc= document.querySelector('#calc')
+
 
 
 calc.addEventListener('click',function(){calcPrice()})
 
 reset.addEventListener('click',function(){restart()})
 
-function restart(){
-
-}
-
 function calcPrice(){
+let meret = document.querySelector('#meret').value;
+let hiba= document.querySelector('#hiba').value;
+//let ered= document.querySelector('#ered');
+let db= document.querySelector('#db').value;
+let price=0;
+let reset= document.querySelector('#reset')
+let calc= document.querySelector('#calc')
 
     switch (meret) {
         case "L":
@@ -41,5 +38,5 @@ function calcPrice(){
             break;
 
     }
-    ered.innerText=price+" Ft";
+    alert(price+" Ft");
 }
