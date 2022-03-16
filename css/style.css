@@ -27,3 +27,15 @@ h2{
     border: 1px solid black;
     width: 300px;
 }
+footer{
+    clear:both;
+}
+img{
+    height: 150px;
+}
+header p {
+    text-align: center;
+}
+article{
+    padding: 15px;
+}
