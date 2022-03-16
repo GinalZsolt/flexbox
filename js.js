@@ -1,4 +1,4 @@
-let meret = document.querySelector('#selectmeret').value;
+let meret = document.querySelector('#meret').value;
 let hiba= document.querySelector('#hiba').value;
 let ered= document.querySelector('#ered');
 let db= document.querySelector('#db').value;
@@ -16,7 +16,7 @@ function restart(){
 }
 
 function calcPrice(){
-    
+
     switch (meret) {
         case "L":
             price=45;
